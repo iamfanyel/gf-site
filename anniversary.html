@@ -93,6 +93,15 @@
     filter: drop-shadow(0 8px 18px rgba(179, 81, 99, 0.16));
     animation: catFloat 2.8s ease-in-out infinite 0.3s;
   }
+  .view-gift-cat {
+    width: clamp(105px, 22vw, 135px);
+    height: auto;
+    margin: 0 auto 30px;
+    display: block;
+    pointer-events: none;
+    filter: drop-shadow(0 8px 18px rgba(179, 81, 99, 0.16));
+    animation: catFloat 2.6s ease-in-out infinite 0.2s;
+  }
   @keyframes catFloat {
     0%, 100% { transform: translateY(0) rotate(0deg); }
     50%      { transform: translateY(-7px) rotate(2deg); }
@@ -888,6 +897,7 @@ seu homem Rafa
       <span class="back-label"></span>
     </button>
     <div class="gifts single" id="giftSingle"></div>
+    <img src="cat-gift.png" alt="Gatinho com coração" class="view-gift-cat">
   </section>
 
   <!-- ---------- Maximized gift image ---------- -->
